@@ -13,9 +13,10 @@ html, body {
 }
 
 body {
-  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bg-static.jpg');
+  // background-image: url('http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bg-static.jpg');
+  background-image: url('arkcorp.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -25,19 +26,19 @@ body {
 }
 
 /* Main */
-.main {
+.header {
   color: #fff;
   position: relative;
   top: 100px;
   text-align: center;
 }
 
-.main h1 {
+.header h1 {
   font-size: 80px;
   font-weight: 300;
 }
 
-.main p {
+.header p {
   font-size: 30px;
 }
 
