@@ -12,10 +12,10 @@
   <div class="Top">Training Manager</div>
   <div class="Rank"></div>
   <div class="Container">
-      <img src="assets\topleftcorner.png" class="topleftcorner">
-      <img src="assets\toprightcorner.png" class="toprightcorner">
+    <img src="assets\topleftcorner.png" class="topleftcorner">
+    <img src="assets\toprightcorner.png" class="toprightcorner">
     <div class="Middle">
-      <form>
+      <form id="userform">
         What's your forum name?*
         <br>
         <input name="forumname" type="text">
@@ -28,6 +28,28 @@
         <input name="course" type="radio" value "bfl1">BFL1: Space Combat Maneuvering
         <br>
         <input name="course" type="radio" value "bfl2">Formations
+        <br>
+        <input name="course" type="radio" value "bfl3">Communications
+        <br>
+        <input name="course" type="radio" value "bfl4">Operations
+        <br>
+        <input name="course" type="radio" value "ftr1">Section Tactics
+        <br>
+        <input name="course" type="radio" value "ftr2">Deuces Wild Intro
+        <br>
+        <input name="course" type="radio" value "ftr3">Wildcard Management
+        <br>
+        <input name="course" type="radio" value "ftr4">Trips Wild Intro
+        <br>
+        <input name="course" type="radio" value "ftr5">TACFORM 1
+        <br>
+        <input name="course" type="radio" value "ftr6">Deuces Wild w/ Resets
+        <br>
+        <input name="course" type="radio" value "ftr7">TACFORM 2
+        <br>
+        <input name="course" type="radio" value "ftr8">Trips Wild w/ Resets
+        <br>
+        <input name="course" type="radio" value "ftr9">Basic Fighters Check
         <br>
         <br>
         <br> Who was your trainer?*
@@ -73,19 +95,17 @@
         <input name="enjoy" type="text">
         <br>
         <br>
-        <br> What can we do to improve the training process?
-        <br>
-        <input name="improve-text" type="text">
-        <br>
-        <br>
-        <br> Any other questions, comments, or feedback about the chapter in general?
-        <br>
-        <input name="improve-text" type="text">
-        <br>
-        <br>
-        <br>
-        <input type="submit" value="Submit">
       </form>
+      What can we do to improve the training process?
+      <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+      <br>
+      <br>
+       Any other questions, comments, or feedback about the chapter in general?
+      <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+      <br>
+      <br>
+      <br>
+      <input type="submit" value="Submit">
     </div>
   </div>
 </body>
