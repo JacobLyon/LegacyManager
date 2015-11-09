@@ -55,7 +55,6 @@ body {
   left: 25px;
   height: 250px;
   width: 550px;
-  border:2px solid black;
 }
 /*This is our main wrapping element, it's made 100vh high to ensure it is always the correct size and then moved into place and padded with negative margin and padding*/
 .Container {
@@ -63,13 +62,43 @@ body {
   display: flex;
   overflow: hidden;
   height: 375px;
+  width: 550px;
   position: absolute;
   top: 400px;
   left: 25px;
-  width: 550px;
   backface-visibility: hidden;
   will-change: overflow;
-  border:2px solid black;
+}
+
+.Container:hover {
+  background-image: url("bluecolormaphover.png");
+}
+
+.topleftcorner {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  height: 9px;
+  width: 9px;
+}
+
+.toprightcorner {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  height: 9px;
+  width: 9px;
+
+}
+
+.Container:hover .topleftcorner {
+  top: 1px;
+  left: 1px;
+}
+
+.Container:hover .toprightcorner {
+  top: 1px;
+  right: 1px;
 }
 /*All the scrollable sections should overflow and be whatever height they need to be. As they are flex-items (due to being inside a flex container) they could be made to stretch full height at all times if needed.
 WebKit inertia scrolling is being added here for any present/future devices that are able to make use of it.
@@ -77,7 +106,7 @@ WebKit inertia scrolling is being added here for any present/future devices that
 .Middle {
   height: auto;
   overflow: auto;
-  padding: .5rem;
+  padding: 20px;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
 }

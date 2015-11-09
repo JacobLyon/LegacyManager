@@ -1,59 +1,93 @@
 <!DOCTYPE html>
 <html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title>Independent CSS scrolling panels (with inertia)</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="Top">Training Manager</div>
-    <div class="Rank"></div>
-    <div class="Container">
-      <div class="Middle">
-        <form>
-          What's your forum name?*<br>
-          <input name="forumname" type="text"><br>
-          <br><br>
-          Which training session did you attend tonight?(fill out multiple surveys for more than one)*<br>
-          <input name="recruittraining" type="radio" value"recruittraining">Recruit Training<br>
-          <input name="scm" type="radio" value"bfl1">BFL1: Space Combat Maneuvering<br>
-          <input name="formations" type="radio" value"bfl2">Formations<br>
-          <br><br>
-          Who was your trainer?*<br>
-          <input name="vin" type="radio" value"vin">Vin(Whitesnake)<br>
-          <input name="splooshie" type="radio" value"splooshie">Splooshie<br>
-          <input name="obscurehero" type="radio" value"obscurehero">Obscurehero<br>
-          <input name="jacoblyon" type="radio" value"jacoblyon">JacobLyon<br>
-          <br><br>
-          Did the training materials properly prepare you for the session?*<br>
-          <input name="materials-yes" type="radio" value"yes">Yes<br>
-          <input name="materials-no" type="radio" value"no">No<br>
-          <input name="didnotwatch" type="radio" value"didnotwatch">I didn't watch the video<br>
-          <input name="materials-other-radio" type="radio" value"other">Other:
-          <input name="materials-other-text" type="text"><br>
-          <br><br>
-					Did the training was effective and valueble to the chapter?*<br>
-					<input name="value-yes" type="radio" value"yes">Yes<br>
-					<input name="value-no" type="radio" value"no">No<br>
-					<input name="values-other-radio" type="radio" value"other">Other:
-					<input name="values-other-text" type="text"><br>
-					<br><br>
-					Did you enjoy the training session?*<br>
-					<input name="enjoy-yes" type="radio" value"yes">Yes<br>
-					<input name="enjoy-no" type="radio" value"no">No<br>
-					<input name="enjoy-other-radio" type="radio" value"other">Other:
-					<input name="enjoy-other-text" type="text"><br>
-					<br><br>
-					What can we do to improve the training process?<br>
-					<input name="improve-text" type="text"><br>
-					<br><br>
-					Any other questions, comments, or feedback about the chapter in general?<br>
-					<input name="improve-text" type="text"><br>
-					<br><br>
-					<input type="submit" value="Submit">
-        </form>
-      </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>Independent CSS scrolling panels (with inertia)</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="Top">Training Manager</div>
+  <div class="Rank"></div>
+  <div class="Container">
+      <img src="assets\topleftcorner.png" class="topleftcorner">
+      <img src="assets\toprightcorner.png" class="toprightcorner">
+    <div class="Middle">
+      <form>
+        What's your forum name?*
+        <br>
+        <input name="forumname" type="text">
+        <br>
+        <br>
+        <br> Which training session did you attend tonight?(fill out multiple surveys for more than one)*
+        <br>
+        <input name="course" type="radio" value "recruittraining">Recruit Training
+        <br>
+        <input name="course" type="radio" value "bfl1">BFL1: Space Combat Maneuvering
+        <br>
+        <input name="course" type="radio" value "bfl2">Formations
+        <br>
+        <br>
+        <br> Who was your trainer?*
+        <br>
+        <input name="handle" type="radio" value "vin">Vin(Whitesnake)
+        <br>
+        <input name="handle" type="radio" value "splooshie">Splooshie
+        <br>
+        <input name="handle" type="radio" value "obscurehero">Obscurehero
+        <br>
+        <input name="handle" type="radio" value "jacoblyon">JacobLyon
+        <br>
+        <br>
+        <br> Did the training materials properly prepare you for the session?*
+        <br>
+        <input name="materials" type="radio" value "yes">Yes
+        <br>
+        <input name="materials" type="radio" value "no">No
+        <br>
+        <input name="materials" type="radio" value "didnotwatch">I didn't watch the video
+        <br>
+        <input name="materials" type="radio" value "other">Other:
+        <input name="materials" type="text">
+        <br>
+        <br>
+        <br> Did the training was effective and valueble to the chapter?*
+        <br>
+        <input name="value" type="radio" value "yes">Yes
+        <br>
+        <input name="value" type="radio" value "no">No
+        <br>
+        <input name="value" type="radio" value "other">Other:
+        <input name="value" type="text">
+        <br>
+        <br>
+        <br> Did you enjoy the training session?*
+        <br>
+        <input name="enjoy" type="radio" value "yes">Yes
+        <br>
+        <input name="enjoy" type="radio" value "no">No
+        <br>
+        <input name="enjoy" type="radio" value "other">Other:
+        <input name="enjoy" type="text">
+        <br>
+        <br>
+        <br> What can we do to improve the training process?
+        <br>
+        <input name="improve-text" type="text">
+        <br>
+        <br>
+        <br> Any other questions, comments, or feedback about the chapter in general?
+        <br>
+        <input name="improve-text" type="text">
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
