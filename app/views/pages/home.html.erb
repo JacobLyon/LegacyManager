@@ -16,93 +16,85 @@
     <img src="assets\toprightcorner.png" class="toprightcorner">
     <div class="Middle">
       <form id="userform">
-        What's your forum name?*
+        <label class="format">What's your forum name?
         <br>
-        <input name="forumname" type="text">
+        <input name="forumname" type="text" class="boxformat">
         <br>
+        <br> <label class="format">Which training session did you attend tonight?(fill out multiple surveys for more than one)</label>
         <br>
-        <br> Which training session did you attend tonight?(fill out multiple surveys for more than one)*
+        <input name="course" type="radio" value "recruittraining"><label class="radioformat">Recruit Training</label>
         <br>
-        <input name="course" type="radio" value "recruittraining">Recruit Training
+        <input name="course" type="radio" value "bfl1"><label class="radioformat">BFL1: Space Combat Maneuvering</label>
         <br>
-        <input name="course" type="radio" value "bfl1">BFL1: Space Combat Maneuvering
+        <input name="course" type="radio" value "bfl2"><label class="radioformat">Formations</label>
         <br>
-        <input name="course" type="radio" value "bfl2">Formations
+        <input name="course" type="radio" value "bfl3"><label class="radioformat">Communications</label>
         <br>
-        <input name="course" type="radio" value "bfl3">Communications
+        <input name="course" type="radio" value "bfl4"><label class="radioformat">Operations</label>
         <br>
-        <input name="course" type="radio" value "bfl4">Operations
+        <input name="course" type="radio" value "ftr1"><label class="radioformat">Section Tactics</label>
         <br>
-        <input name="course" type="radio" value "ftr1">Section Tactics
+        <input name="course" type="radio" value "ftr2"><label class="radioformat">Deuces Wild Intro</label>
         <br>
-        <input name="course" type="radio" value "ftr2">Deuces Wild Intro
+        <input name="course" type="radio" value "ftr3"><label class="radioformat">Wildcard Management</label>
         <br>
-        <input name="course" type="radio" value "ftr3">Wildcard Management
+        <input name="course" type="radio" value "ftr4"><label class="radioformat">Trips Wild Intro</label>
         <br>
-        <input name="course" type="radio" value "ftr4">Trips Wild Intro
+        <input name="course" type="radio" value "ftr5"><label class="radioformat">TACFORM 1</label>
         <br>
-        <input name="course" type="radio" value "ftr5">TACFORM 1
+        <input name="course" type="radio" value "ftr6"><label class="radioformat">Deuces Wild w/ Resets</label>
         <br>
-        <input name="course" type="radio" value "ftr6">Deuces Wild w/ Resets
+        <input name="course" type="radio" value "ftr7"><label class="radioformat">TACFORM 2</label>
         <br>
-        <input name="course" type="radio" value "ftr7">TACFORM 2
+        <input name="course" type="radio" value "ftr8"><label class="radioformat">Trips Wild w/ Resets</label>
         <br>
-        <input name="course" type="radio" value "ftr8">Trips Wild w/ Resets
+        <input name="course" type="radio" value "ftr9"><label class="radioformat">Basic Fighters Check</label>
         <br>
-        <input name="course" type="radio" value "ftr9">Basic Fighters Check
+        <br> <label class="format">Who was your trainer?</label>
         <br>
+        <input name="handle" type="radio" value "vin"><label class="radioformat">Vin(Whitesnake)</label>
         <br>
-        <br> Who was your trainer?*
+        <input name="handle" type="radio" value "splooshie"><label class="radioformat">Splooshie</label>
         <br>
-        <input name="handle" type="radio" value "vin">Vin(Whitesnake)
+        <input name="handle" type="radio" value "obscurehero"><label class="radioformat">Obscurehero</label>
         <br>
-        <input name="handle" type="radio" value "splooshie">Splooshie
+        <input name="handle" type="radio" value "jacoblyon"><label class="radioformat"><label class="format">JacobLyon</label>
         <br>
-        <input name="handle" type="radio" value "obscurehero">Obscurehero
+        <br> <label class="format">Did the training materials properly prepare you for the session?</label>
         <br>
-        <input name="handle" type="radio" value "jacoblyon">JacobLyon
+        <input name="materials" type="radio" value "yes"><label class="radioformat">Yes</label>
         <br>
+        <input name="materials" type="radio" value "no"><label class="radioformat">No</label>
         <br>
-        <br> Did the training materials properly prepare you for the session?*
+        <input name="materials" type="radio" value "didnotwatch"><label class="radioformat">I didn't watch the video</label>
         <br>
-        <input name="materials" type="radio" value "yes">Yes
+        <input name="materials" type="radio" value "other"><label class="radioformat">Other:</label>
+        <input name="materials" type="text" class="boxformat">
         <br>
-        <input name="materials" type="radio" value "no">No
+        <br> <label class="format">Did the training was effective and valueble to the chapter?</label>
         <br>
-        <input name="materials" type="radio" value "didnotwatch">I didn't watch the video
+        <input name="value" type="radio" value "yes"><label class="radioformat">Yes</label>
         <br>
-        <input name="materials" type="radio" value "other">Other:
-        <input name="materials" type="text">
+        <input name="value" type="radio" value "no"><label class="radioformat">No</label>
         <br>
+        <input name="value" type="radio" value "other"><label class="radioformat">Other:</label>
+        <input name="value" type="text" class="boxformat">
         <br>
-        <br> Did the training was effective and valueble to the chapter?*
+        <br> <label class="format">Did you enjoy the training session?</label>
         <br>
-        <input name="value" type="radio" value "yes">Yes
+        <input name="enjoy" type="radio" value "yes"><label class="radioformat">Yes</label>
         <br>
-        <input name="value" type="radio" value "no">No
+        <input name="enjoy" type="radio" value "no"><label class="radioformat">No</label>
         <br>
-        <input name="value" type="radio" value "other">Other:
-        <input name="value" type="text">
-        <br>
-        <br>
-        <br> Did you enjoy the training session?*
-        <br>
-        <input name="enjoy" type="radio" value "yes">Yes
-        <br>
-        <input name="enjoy" type="radio" value "no">No
-        <br>
-        <input name="enjoy" type="radio" value "other">Other:
-        <input name="enjoy" type="text">
-        <br>
+        <input name="enjoy" type="radio" value "other"><label class="radioformat">Other:</label>
+        <input name="enjoy" type="text" class="boxformat">
         <br>
       </form>
-      What can we do to improve the training process?
-      <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
+      <label class="format">What can we do to improve the training process?</label>
+      <textarea rows="4" cols="50" name="comment" form="usrform" class="boxformat"></textarea>
       <br>
-      <br>
-       Any other questions, comments, or feedback about the chapter in general?
-      <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea>
-      <br>
+      <br> <label class="format">Any other questions, comments, or feedback about the chapter in general?</label>
+      <textarea rows="4" cols="50" name="comment" form="usrform" class="boxformat"></textarea>
       <br>
       <br>
       <input type="submit" value="Submit">
